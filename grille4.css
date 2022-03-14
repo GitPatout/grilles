@@ -1,0 +1,39 @@
+.grille4
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 500px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+.case1,.case2,.case3,.case4,.case5,.case6,.case7,.case8,.case9
+{
+    background-color: firebrick;
+    color: azure;
+}
+
+.case1
+{
+    grid-column: 1/4; /*ces vertical*/
+}
+.case2
+{
+    grid-row: 2/4;
+}
+.case3
+{
+    grid-column: 2/4;
+}
+
+.case6
+{
+    grid-column: 1/3;
+}
+
+.case7
+{
+    grid-column: 3;
+    grid-row: 4/6;
+}
